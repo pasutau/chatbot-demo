@@ -24,4 +24,4 @@ yarn-error.log*
 
 #firebase files
 .firebase/
-.firebasercw
+.firebaserc
