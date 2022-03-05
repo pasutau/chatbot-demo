@@ -18,6 +18,9 @@
 .firebase/
 .firebaserc
 
+#git
+.github/
+
 # misc
 .DS_Store
 .env.local
