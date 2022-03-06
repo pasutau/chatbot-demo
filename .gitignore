@@ -17,6 +17,7 @@
 #firebase files
 .firebase/
 .firebaserc
+config.js
 
 #git
 .github/
