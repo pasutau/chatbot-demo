@@ -46,7 +46,7 @@ export default class FormDialog extends React.Component {
                     '問い合わせ内容\n' + description
         }
 
-        const url = REACT_APP_SLACKURL
+        const url = process.env.REACT_APP_SLACKURL
         fetch(url, {
             method: 'POST',
             body: JSON.stringify(payload)
